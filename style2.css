@@ -1,0 +1,53 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'NanumSquareNeo-Variable';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+p {display:inline-block; margin:0;}
+.container { padding:30px 0px; height:700px; ; border:.5px solid #333333;  border-radius: 5px; margin:50px 0;}
+.container .row .col-3 {height: 50px; background: black; padding: 10px 0;}
+.container a {text-decoration:none; color:white; font-weight:500; font-size: 20px; }
+.container a:hover { color:white;}
+.container .row .col-3:nth-child(2) {background:linear-gradient( to right, #92FE9D, #00C9FF); }
+.container .row .col-3:hover { background:linear-gradient( to right, #92FE9D, #00C9FF); }
+
+.col-sm-8 {}
+
+.title_profile {margin:45px 0 10px 7px; font-size:25px; font-weight:600;}
+    .profilPic { position:relative; top:0; display:inline-block; position:relative; top:0; left:0; padding: 10px; height:100px; background:#92FE9D; border-radius: 5px;}
+    ul {display:inline-block; list-style:none;}
+
+    .profileText li { font-size: 18px; font-weight:600;}
+
+
+.title_course {margin:45px 0 10px 7px; font-size:25px; font-weight:600;}
+
+
+
+
+.title_curri {margin:5px 0 10px 0px; font-size:25px; font-weight:600;}
+
+.curribook img {height:110px; width:110px; padding:0 ;}
+
+
+
+
+.title_work {margin:45px 0 10px 7px; font-size:25px; font-weight:600;}
+
+
+.container_weekwork {margin: 10px auto; }
+.weekwork { margin: 0 10px; height:60px; width:60px; }
+.weekworkTitle p:first-child {margin: 0 20px;}
+.weekworkTitle p:nth-child(2) {margin: 0 10px 10px;}
+.weekworkTitle p:nth-child(3) {margin: 0 15px 15px;}
+.weekworkTitle p:nth-child(4) {margin: 0 17px 17px;}
+
+.weekworkTitle02 p:first-child {margin: 0 14px;}
+.weekworkTitle02 p:nth-child(2) {margin: 0 10px 10px;}
+.weekworkTitle02 p:nth-child(3) {margin: 0 16px 16px;}
+.weekworkTitle02 p:nth-child(4) {margin: 0 14px 14px;}
+
+.col-sm-4 { border-left: 0.1px solid #d4d4d4;}
